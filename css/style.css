@@ -1,0 +1,88 @@
+ul.nav.navbar-nav.list-inline.right-menu {
+    display: -webkit-inline-box;
+}
+
+.ml-15 {
+    margin-left: 15px !important;
+}
+.ml-5 {
+    margin-left: 5px !important;
+}
+.fa-envelope{
+    border-radius: 50%;
+    background: #fff;
+    color: #6500b6;
+    padding: 5px;
+}
+.navbar{
+    background-color: #6500b6;
+    padding: 30px 0px !important;
+    margin-bottom:50px;
+}
+.left_cont img {
+    width: 70%;
+}
+.second_container, .skills_container, .projects_container, .recommandations_container, .form-container{
+    margin-bottom:50px;
+}
+img.card-img-top {
+    width: 20%;
+    margin: 0 auto;
+}
+.card {
+    padding: 20px 0px;
+    text-align: center;
+    box-shadow: rgb(60 64 67 / 29%) 0px 1px 10px 0px, rgb(60 64 67 / 11%) 0px 2px 6px 2px;
+}
+.top-row{
+    margin-bottom: 30px;
+}
+.heading{
+    color: #6500b6;
+    margin-bottom: 30px;
+
+}
+.accordion-button:not(.collapsed){
+    background-color: transparent !important;
+}
+.accordion-header strong{
+    font-size:20px;
+}
+.recommandations_container .card{
+    box-shadow: rgba(60, 64, 67, 0.119) 0px 1px 10px 0px, rgba(60, 64, 67, 0) 0px 2px 6px 2px;
+    border:1px solid #000;
+    border-radius: 10px;
+    justify-content: center;
+}
+.container.form-container{
+    width:60%;
+}
+button.btn.submit{
+    color:#6500b6;
+    background-color: transparent;
+    border: 1px solid #6500b6;
+    font-weight: bold;
+    padding: 7px 50px;
+}
+#scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#scrollBtn i:hover {
+    background-color: #0056b3;
+}
+
+#scrollBtn i{
+    background-color: #6500b6;
+    border-radius: 50%;
+    padding: 10px;
+}
